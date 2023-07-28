@@ -28,6 +28,23 @@ npm run dev
 This will start both the client and server apps in dev mode. The site will be
 available at http://localhost:3000.
 
+To launch cypress server:
+
+```sh
+cd server
+npx cypress open
+```
+
+To launch cypress client:
+
+```sh
+cd client
+npx cypress open
+```
+
+
+
+
 ## App Overview
 
 The Cypress Heroes app consists of a frontend client app written in React that

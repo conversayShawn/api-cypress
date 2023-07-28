@@ -9,7 +9,7 @@ describe('heroes endpoint', () => {
     cy.get('@request').its('status').should('equal', 200);
   });
 
-  it.only('should get all heroes from the endpoint', () => {
+  it('should get all heroes from the endpoint', () => {
     cy.request('GET', '/heroes').then((response) => {
       // Validate the response status code
       expect(response.status).to.eq(200);
